@@ -1,0 +1,495 @@
+.logoImg {
+      width: 100%;
+}
+
+.inputBox {
+      padding: 10px 10px 10px 20px;
+      font-size: 16px;
+      border-radius: 20px;
+      width: 90%;
+      outline: none;
+      border: none;
+}
+
+.sidebarBtn {
+      border-radius: 20px !important;
+      width: 100%;
+      display: flex !important;
+      justify-content: flex-start !important;
+      align-items: center !important;
+      gap: 10px !important;
+      color: #efefef !important;
+      transition-duration: 0.1s !important;
+}
+
+.sideBarIcon {
+      transition-duration: 0.1s !important;
+}
+
+.activeSiebarBtn {
+      background: red !important;
+}
+
+.activeSiebarIcon {
+      color: #efefef !important;
+}
+
+.sidebarBtn:hover {
+      background: red;
+      color: #efefef;
+}
+
+.sidebarBtn:hover .sideBarIcon {
+      color: #efefef !important;
+}
+
+.cardTitle {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 10px;
+}
+
+.imgContainerForCard {
+      width: 100%;
+      aspect-ratio: 97 / 55;
+}
+
+.cardImg {
+      object-fit: cover !important;
+      width: 100% !important;
+      height: 100% !important;
+}
+
+
+
+@media only screen and (width >= 1920px) {
+      .btnName {
+            font-size: 22px !important;
+      }
+
+      .sidebarBtn .css-1umw9bq-MuiSvgIcon-root {
+            font-size: 30px !important;
+      }
+
+      .cardTitle2 {
+            font-size: 25px !important;
+      }
+
+      .cardTitle {
+            font-size: 18px !important;
+      }
+
+      .inputBox {
+            font-size: 22px !important;
+      }
+
+      .notifyIcon {
+            font-size: 35px !important;
+      }
+
+      .profilPic {
+            transform: scale(1.4);
+      }
+
+      .notifyBox {
+            gap: 25px !important;
+      }
+
+      .MuiBadge-badge {
+            font-size: 20px !important;
+            height: 25px !important;
+            width: 25px !important;
+            border-radius: 100% !important;
+      }
+
+      .scrollBar {
+            padding: 40px 20px !important;
+            height: 86vh !important;
+            top: 102px !important;
+      }
+
+      .videoDetailBox {
+            height: 75vh !important;
+      }
+
+      .videoTitle {
+            font-size: 35px !important;
+      }
+
+      .cardTitle {
+            font-size: 25px !important;
+      }
+
+      .cardDe {
+            font-size: 25px !important;
+      }
+
+      .cardIcon {
+            font-size: 30px !important;
+      }
+
+      .videoDetailBox {
+            top: 120px !important;
+      }
+}
+
+@media only screen and (width >= 2300px) {
+      .inputBox {
+            font-size: 26px !important;
+      }
+
+      .notifyIcon {
+            font-size: 40px !important;
+      }
+
+      .profilPic {
+            transform: scale(1.6);
+      }
+
+      .notifyBox {
+            gap: 30px !important;
+      }
+
+      .MuiBadge-badge {
+            font-size: 25px !important;
+            height: 30px !important;
+            width: 30px !important;
+            border-radius: 100% !important;
+      }
+
+      .sideBar {
+            width: 15% !important;
+      }
+
+      .btnName {
+            font-size: 30px !important;
+      }
+
+      .sidebarBtn .css-1umw9bq-MuiSvgIcon-root {
+            font-size: 45px !important;
+      }
+
+      .cardTitle2 {
+            font-size: 30px !important;
+      }
+
+      .cardTitle {
+            font-size: 20px !important;
+      }
+
+      .sidebarBtn {
+            gap: 20px !important;
+      }
+
+      .feedVideo {
+            width: 85% !important;
+      }
+
+      .feedTitle {
+            font-size: 50px !important;
+      }
+      
+      .logoBox {
+            width: 12% !important;
+      }
+
+      .scrollBar {
+            padding: 40px 20px !important;
+            height: 88vh !important;
+            top: 102px !important;
+      }
+
+      .videoDetailBox {
+            height: 85vh !important;
+      }
+
+      .videoTitle {
+            font-size: 45px !important;
+      }
+
+      .cardTitle {
+            font-size: 30px !important;
+      }
+
+      .cardDe {
+            font-size: 30px !important;
+      }
+
+      .cardIcon {
+            font-size: 40px !important;
+      }
+
+      .videoDetailBox {
+            top: 120px !important;
+      }
+}
+
+@media only screen and (width <= 1536px) {
+      .feedVideoBox {
+            padding: 0px 20px 20px 20px !important;
+      }
+      
+      .scrollBar {
+            height: 86vh !important;
+            top: 80px !important;
+      }
+
+      .videoDetailBox {
+            height: 73vh !important;
+      }
+
+      .videoTitle {
+            font-size: 20px !important;
+      }
+
+      .cardTitle {
+            font-size: 18px !important;
+      }
+
+      .cardDe {
+            font-size: 15px !important;
+      }
+
+      .cardIcon {
+            font-size: 20px !important;
+      }
+
+      .videoDetailBox {
+            top: 97px !important;
+      }
+}
+
+@media only screen and (width <= 1200px) {
+      .inputBox {
+            font-size: 14px !important;
+            padding: 7px 10px 7px 20px;
+      }
+
+      .searchIcon {
+            margin-bottom: 0px !important;
+            font-size: 20px !important;
+      }
+
+      .feedTitle {
+            font-size: 27px !important;
+      }
+
+      .sideBar {
+            width: 20% !important;
+      }
+
+      .feedVideo {
+            width: 80% !important;
+      }
+
+      .btnName {
+            font-size: 12px !important;
+      }
+
+      .sidebarBtn .css-1umw9bq-MuiSvgIcon-root {
+            font-size: 20px !important;
+      }
+
+      .cardTitle2 {
+            font-size: 18px !important;
+      }
+
+      .cardTitle {
+            font-size: 14px !important;
+      }
+
+      .sidebarBtn {
+            gap: 10px !important;
+      }
+
+      .scrollBar {
+            height: 82vh !important;
+            top: 80px !important;
+      }
+
+      .videoDetailBox {
+            height: 73vh !important;
+      }
+
+      .videoTitle {
+            font-size: 18px !important;
+      }
+
+      .cardTitle {
+            font-size: 16px !important;
+      }
+
+      .cardDe {
+            font-size: 12px !important;
+      }
+
+      .cardIcon {
+            font-size: 18px !important;
+      }
+
+      .videoDetailBox {
+            top: 85px !important;
+      }
+}
+
+@media only screen and (width <= 900px) {
+      .inputBox {
+            font-size: 14px !important;
+            padding: 5px 5px 5px 10px;
+      }
+
+      .logoBox {
+            width: 17% !important;
+      }
+
+      .inputContainer {
+            width: 56% !important;
+      }
+
+      .notifyIcon {
+            font-size: 23px !important;
+      }
+
+      .profilPic {
+            transform: scale(0.9);
+      }
+
+      .MuiBadge-badge {
+            font-size: 12px !important;
+            height: 18px !important;
+            width: 18px !important;
+            border-radius: 100% !important;
+      }
+
+      .notifyBox {
+            gap: 10px !important;
+      }
+
+      .feedTitle {
+            font-size: 27px !important;
+      }
+
+      .sideBar {
+            width: 27% !important;
+      }
+
+      .feedVideo {
+            width: 73% !important;
+      }
+
+      .btnName {
+            font-size: 12px !important;
+      }
+
+      .sidebarBtn .css-1umw9bq-MuiSvgIcon-root {
+            font-size: 20px !important;
+      }
+
+      .cardTitle2 {
+            font-size: 16px !important;
+      }
+
+      .cardTitle {
+            font-size: 12px !important;
+      }
+
+      .sidebarBtn {
+            gap: 10px !important;
+      }
+
+      .scrollBar {
+            padding: 10px 10px !important;
+      }
+
+      .cardBody {
+            padding: 10px 10px 10px 10px !important;
+      }
+
+      .feedVideoBox {
+            padding: 0px 10px !important;
+      }
+
+      .videoDetailBox {
+            height: 73vh !important;
+      }
+
+      .videoTitle {
+            font-size: 16px !important;
+            margin: 0 !important;
+      }
+
+      .cardTitle {
+            font-size: 12px !important;
+      }
+
+      .cardDe {
+            font-size: 12px !important;
+      }
+
+      .cardIcon {
+            font-size: 16px !important;
+      }
+
+      .videoDetailBox {
+            top: 80px !important;
+      }
+}
+
+@media only screen and (width <= 600px) {
+      .inputBox {
+            font-size: 16px !important;
+            padding: 7px 5px 7px 10px;
+      }
+
+      .logoBox {
+            width: 17% !important;
+      }
+
+      .inputContainer {
+            width: 56% !important;
+      }
+
+      .notifyIcon {
+            font-size: 20px !important;
+      }
+
+      .profilPic {
+            transform: scale(0.8);
+      }
+
+      .MuiBadge-badge {
+            font-size: 12px !important;
+            height: 18px !important;
+            width: 18px !important;
+            border-radius: 100% !important;
+      }
+
+      .notifyBox {
+            gap: 5px !important;
+      }
+
+      .navBar {
+            padding: 10px 10px !important;
+      }
+
+      .sideBar {
+            width: 100% !important;
+      }
+
+      .sidebarBtn {
+            min-width: unset !important;
+      }
+
+      .scrollBar {
+            height: auto !important;
+      }
+
+      .feedVideo {
+            width: 100% !important;
+      }
+
+      .videoDetailBox  {
+            height: auto !important;
+      }
+}
